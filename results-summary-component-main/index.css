@@ -13,7 +13,7 @@ body {
 }
 
 .card {
-   background-image: linear-gradient(#6743FF, #312CEB);
+   background-image: linear-gradient(#6743FF, hsl(241, 81%, 54%));
    color: white;
    height: fit-content;
    display: flex;
