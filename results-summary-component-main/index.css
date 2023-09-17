@@ -1,10 +1,15 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+@font-face {
+   font-family: main_font;
+   src: url("./assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
 body {
    margin: 0;
    padding: 0;
-
+   font-family: main_font;
 }
 
 .card {
