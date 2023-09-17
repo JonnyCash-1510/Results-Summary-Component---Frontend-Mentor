@@ -59,3 +59,84 @@ body {
    font-size: 15px;
    color: rgba(255, 255, 255, 0.702);
 }
+
+.body-wrapper {
+   margin-top: -60px;
+   margin-bottom: 100px;
+   padding: 30px;
+}
+
+.body-wrapper h3 {
+   font-size: 22px;
+}
+
+.summary {
+   display: flex;
+   flex-direction: column;
+   gap: 18px;
+   margin-top: 30px;
+}
+
+.icon {
+   width: 25px;
+   margin-right: 10px;
+}
+
+.s-card-left {
+   display: flex;
+}
+
+.s-card-right {
+   display: flex;
+   margin-right: 20px;
+}
+
+.bold {
+   font-weight: 800;
+   margin-right: 8px;
+}
+
+.light {
+   color: rgba(0, 0, 0, 0.419);
+   font-weight: 700;
+}
+
+.tag {
+   font-weight: 800;
+   margin-right: 10px;
+   color: rgba(255, 0, 0, 0.579);
+}
+
+.s-card {
+   height: 60px;
+   display: flex;
+   align-items: center;
+   padding-left: 15px;
+   background-color: rgba(255, 0, 0, 0.062);
+   border-radius: 10px;
+   justify-content: space-between;
+}
+
+#s-card2 {
+   background-color: rgba(255, 225, 0, 0.105);
+}
+
+#s-card2 .tag {
+   color: rgb(255, 187, 0);
+}
+
+#s-card3 {
+   background-color: rgba(0, 238, 255, 0.102);
+}
+
+#s-card3 .tag {
+   color: rgb(0, 210, 172);
+}
+
+#s-card4 {
+   background-color: rgba(0, 0, 149, 0.055);
+}
+
+#s-card4 .tag {
+   color: rgba(47, 37, 222, 0.808);
+}
