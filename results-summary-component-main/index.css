@@ -45,7 +45,7 @@ body {
 
 .circle p {
    font-size: 15px;
-   color: rgba(255, 255, 255, 0.739);
+   color: rgba(255, 255, 255, 0.443);
    margin-top: -60px;
 }
 
@@ -159,4 +159,68 @@ body {
 
 .attribution {
    margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 1000px) {
+   
+   body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .body-card {
+      margin-top: 100px;
+      height: 600px;
+      width: 80%;
+      border-radius: 40px;
+      display: flex;
+      box-shadow: 0px 10px 31px -11px rgba(0,0,0,0.42);
+   }
+
+   .card {
+      transform: translate(0, 0);
+      height: inherit;
+      padding:0;
+      width: 50%;
+   }
+
+   .card h4 {
+      font-size: 30px;
+   }
+
+   .circle {
+      margin-top: 130px;
+      width: 180px;
+      height: 180px;
+      justify-content: center;
+   }
+
+   .circle h1 {
+      margin-top: 20px;
+   }
+
+   .circle p {
+      font-size: 20px;
+      margin-top: -50px;
+   }
+
+   .body-wrapper {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+   }
+
+   .attribution {
+      margin-top: 100px;
+   }
+
+   .content {
+      margin-top: 270px;
+      width: 60%;
+   }
+
+   .content p {
+      font-size: 20px;
+   }
+
 }
