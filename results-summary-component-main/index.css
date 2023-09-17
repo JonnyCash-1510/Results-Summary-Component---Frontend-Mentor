@@ -140,3 +140,23 @@ body {
 #s-card4 .tag {
    color: rgba(47, 37, 222, 0.808);
 }
+
+.btn {
+   margin-bottom: -100px;
+}
+
+.btn button {
+   font: inherit;
+   width: 100%;
+   border: none;
+   margin-top: 20px;
+   color: white;
+   font-weight: 600;
+   background-color: #303B59;
+   height: 50px;
+   border-radius: 100px;
+}
+
+.attribution {
+   margin-bottom: 50px;
+}
