@@ -157,6 +157,11 @@ body {
    border-radius: 100px;
 }
 
+.btn button:hover {
+   cursor: pointer;
+   background-image: linear-gradient(#6745FB, #322DEA);
+}
+
 .attribution {
    margin-bottom: 50px;
 }
@@ -204,11 +209,6 @@ body {
       margin-top: -50px;
    }
 
-   .body-wrapper {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-   }
 
    .attribution {
       margin-top: 100px;
@@ -221,6 +221,25 @@ body {
 
    .content p {
       font-size: 20px;
+   }
+
+   .body-wrapper {
+      height: 100%;
+      margin: 0;
+      padding: 40px;
+      width: 50%;
+   }
+
+   .body-wrapper h3 {
+      font-size: 25px;
+   }
+
+   .btn {
+      margin-top: 30px;
+   }
+
+   .btn button {
+      height: 60px;
    }
 
 }
